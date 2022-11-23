@@ -93,6 +93,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "project-nelin:build:production",
+            "firebaseProject": "project-nelin",
+            "firebaseHostingSite": "project-nelin"
+          }
         }
       }
     }

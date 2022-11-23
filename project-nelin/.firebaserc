@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "project-nelin"
+  },
+  "targets": {
+    "project-nelin": {
+      "hosting": {
+        "project-nelin": [
+          "project-nelin"
+        ]
+      }
+    }
+  }
+}
