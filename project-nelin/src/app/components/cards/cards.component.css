@@ -1,0 +1,48 @@
+
+.card{
+  background-color: rgb(208, 152, 248 ,0.5);
+
+  max-width: 300px;
+  max-height: 1000px;
+
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+
+  margin: 5%;
+  display: block;
+}
+
+.card:hover{
+  background-color: rgb(218, 114, 218);
+}
+
+.header{
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight:bold;
+}
+
+.footer{
+  font-size: smaller;
+}
+
+.avatar{
+  height: 35%;
+  width: 35%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.content{
+  display: flex;
+}
+
+.text{
+  font-style: bold;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
