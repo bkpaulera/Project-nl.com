@@ -3,17 +3,28 @@ import { CommonModule } from '@angular/common';
 
 import { NavbarComponent } from './navbar/navbar.component';
 
-import { MatToolbarModule } from '@angular/material/toolbar';
+import { ParallaxComponent } from './parallax/parallax.component';
+import { CardsComponent } from './cards/cards.component';
 
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatCardModule } from '@angular/material/card';
 
 
 @NgModule({
   declarations: [
-    NavbarComponent
+    NavbarComponent,
+    ParallaxComponent,
+    CardsComponent
   ],
   imports: [
     CommonModule,
-    MatToolbarModule
-  ]
+    MatToolbarModule,
+    MatCardModule
+  ],
+  exports: [
+    NavbarComponent,
+    ParallaxComponent,
+    CardsComponent
+  ],
 })
 export class ComponentsModule { }
