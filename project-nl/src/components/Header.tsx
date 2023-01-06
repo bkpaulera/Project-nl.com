@@ -16,7 +16,7 @@ function Header() {
     });
 
     return (
-        <header className={`${bg ? 'bg-purple-900 h-20' : 'bg-violet-800 h-24'}
+        <header className={`${bg ? 'bg-gradient-to-r from-violet-500 to-fuchsia-500 h-20' : 'bg-gradient-to-r from-violet-800 to-fuchsia-800 h-24'}
                 flex item-center fixed top-0 w-full text-white z-10 transition-all duration-300`}>
 
             <div className="container mx-auto h-full flex items-center justify-between">
