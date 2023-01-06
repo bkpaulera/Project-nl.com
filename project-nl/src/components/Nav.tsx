@@ -7,7 +7,7 @@ import { Link } from 'react-scroll';
 function Nav() {
     return (
         <nav>
-            <ul className='flex space-x-8 capitalize text-[15px]'>
+            <ul className='flex space-x-8 capitalize text-[15px] md:space-x-4'>
                 {navigation.map((item, index) => {
                     return(
                         <li className='text-white hover:text-teal-600 cursor-pointer' key={index}>

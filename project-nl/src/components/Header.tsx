@@ -28,7 +28,7 @@ function Header() {
                 </div>
 
                 {/* Nav */}
-                <div className='hidden lg:block'>
+                <div className='hidden lg:block md:block'>
                     <Nav />
                 </div>
 
@@ -38,7 +38,7 @@ function Header() {
                 </div>
 
                 {/* NavbarMobile */}
-                <div className='lg:hidden'>
+                <div className='lg:hidden md:hidden'>
                     <NavbarMobile />
                 </div>
 
