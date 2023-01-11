@@ -26,3 +26,24 @@ export const navigation = [
         href: 'contact',
     },
 ];
+
+
+//Pics 
+export const people = [
+    {
+        src:'../src/assets/people/people-1.jpg',
+        alt:'Image 1'
+    },
+    {
+        src:'../src/assets/people/people-2.jpg',
+        alt:'Image 2'
+    },
+    {
+        src:'../src/assets/people/people-3.jpg',
+        alt:'Image 3'
+    },
+    {
+        src:'../src/assets/people/people-4.jpeg',
+        alt:'Image 4'
+    },
+];
